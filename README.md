@@ -6,10 +6,8 @@
 
 This generator fetches data from https://pprathameshmore.github.io/QuoteGarden/ API.
 
-## User Stories
-* I can see a random quote
-* I generate a new random quote
-* When I select quote author, I can see a list of quotes from them
-* I can generate a list of quotes from random author.
-* I can see quote genre under the author
+## Features
+* Generate a random quote
+* View a list of quotes by author
+* Generate new list of quotes by random author
 
