@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAA;EACJ,QAAQ,EAAE,MAAM;CAWnB;;AAZD,AAEI,QAFI,AAEH,QAAQ,CAAA;EACL,OAAO,EAAC,EAAE;EACV,KAAK,EAAC,GAAG;EACT,MAAM,EAAC,IAAI;EACX,UAAU,ECHR,OAAe;EDIjB,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,IAAI;EACnB,SAAS,EAAC,uBAAuB;EACjC,aAAa,EAAE,IAAI;CACtB;;AAGL,UAAU,CAAV,SAAU;EACN,IAAI;IACA,SAAS,EAAC,iBAAiB;IAC3B,OAAO,EAAC,CAAC;;EAEb,EAAE;IACE,SAAS,EAAC,iBAAiB;IAC3B,OAAO,EAAC,GAAG",
+    "sources": [
+        "../scss/Loading.scss",
+        "../../../styles/scss/_color.scss"
+    ],
+    "names": [],
+    "file": "Loading.css"
+}

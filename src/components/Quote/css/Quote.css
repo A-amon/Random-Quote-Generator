@@ -1,0 +1,28 @@
+.quote {
+  width: 100%;
+  padding: 1.5rem;
+  max-width: 500px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .quote {
+    font-size: 1.5rem;
+  }
+}
+
+.quote::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: #f7de92;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*# sourceMappingURL=Quote.css.map */

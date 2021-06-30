@@ -1,0 +1,24 @@
+.author {
+  padding: 5rem 0;
+}
+
+.author__link {
+  color: #007bff;
+}
+
+.author__link:hover {
+  text-decoration: underline;
+}
+
+.author h1 {
+  color: #333333;
+}
+
+.author .quote {
+  margin-top: 5rem;
+}
+
+.author .error__card {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=AuthorQuotes.css.map */

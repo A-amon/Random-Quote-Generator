@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAA;EACR,UAAU,EAAC,IAAI;CAClB",
+    "sources": [
+        "../scss/RandomQuote.scss"
+    ],
+    "names": [],
+    "file": "RandomQuote.css"
+}

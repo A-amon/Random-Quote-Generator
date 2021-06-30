@@ -1,0 +1,26 @@
+@import "../../../styles/scss/color";
+
+.loading{
+    overflow: hidden;
+    &::before{
+        content:"";
+        width:25%;
+        height:10px;
+        background:$marzipan;
+        display: block;
+        margin-bottom: 1rem;
+        animation:moveRight 1.5s infinite;
+        border-radius: 50px;
+    }
+}
+
+@keyframes moveRight{
+    from {
+        transform:translateX(-50px);
+        opacity:1;
+    }
+    to{
+        transform:translateX(200px);
+        opacity:0.5;
+    }
+}

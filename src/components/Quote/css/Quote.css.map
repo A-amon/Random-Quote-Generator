@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,MAAM,CAAA;EACF,KAAK,EAAE,IAAI;EACX,OAAO,EAAC,MAAM;EACd,SAAS,EENA,KAAK;EFOd,QAAQ,EAAE,QAAQ;EAClB,aAAa,EAAC,GAAG;EACjB,QAAQ,EAAE,MAAM;EAChB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,UAAU;CAazB;;AGvBG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EHEvC,AAAA,MAAM,CAAA;IAUE,SAAS,EAAC,MAAM;GAWvB;;;AArBD,AAYI,MAZE,AAYD,QAAQ,CAAA;EACL,OAAO,EAAC,EAAE;EACV,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,IAAI;EACX,UAAU,ECfR,OAAe;EDgBjB,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAC,CAAC;EACN,GAAG,EAAC,CAAC;CACR",
+    "sources": [
+        "../scss/Quote.scss",
+        "../../../styles/scss/_color.scss",
+        "../../../styles/scss/_variables.scss",
+        "../../../styles/scss/_breakpoints.scss"
+    ],
+    "names": [],
+    "file": "Quote.css"
+}

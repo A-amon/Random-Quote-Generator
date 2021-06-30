@@ -1,0 +1,24 @@
+@import "../../../styles/scss/color";
+
+.author{
+    padding:5rem 0;
+
+    &__link{
+        color:$primary-blue;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    h1{
+        color:$dark-gray;
+    }
+    
+    .quote{
+        margin-top:5rem;
+    }
+
+    .error__card{
+        margin-top:1rem;
+    }
+}

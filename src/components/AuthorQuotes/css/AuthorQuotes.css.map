@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAA;EACH,OAAO,EAAC,MAAM;CAoBjB;;AAlBI,AAAD,aAAO,CAAA;EACH,KAAK,ECNC,OAAiB;CDU1B;;AALA,AAEG,aAFG,AAEF,MAAM,CAAA;EACH,eAAe,EAAE,SAAS;CAC7B;;AAPT,AAUI,OAVG,CAUH,EAAE,CAAA;EACE,KAAK,ECVF,OAAa;CDWnB;;AAZL,AAcI,OAdG,CAcH,MAAM,CAAA;EACF,UAAU,EAAC,IAAI;CAClB;;AAhBL,AAkBI,OAlBG,CAkBH,YAAY,CAAA;EACR,UAAU,EAAC,IAAI;CAClB",
+    "sources": [
+        "../scss/AuthorQuotes.scss",
+        "../../../styles/scss/_color.scss"
+    ],
+    "names": [],
+    "file": "AuthorQuotes.css"
+}

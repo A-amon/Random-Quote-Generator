@@ -1,0 +1,82 @@
+.main__button--author {
+  max-width: 500px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  position: relative;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  color: #4f4f4f;
+}
+
+.main__button--author:hover {
+  background: #333333;
+  color: #f2f2f2;
+}
+
+.main__button--author:hover::after {
+  -webkit-animation: arrowMove 1s infinite;
+          animation: arrowMove 1s infinite;
+}
+
+.main__button--author::after {
+  content: '';
+  height: 1.5rem;
+  width: 1.5rem;
+  background: url("../../../assets/icons/right-arrow.png");
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 1rem;
+  margin: auto;
+}
+
+.main__button-name {
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.main__button-tag {
+  color: #828282;
+  text-transform: capitalize;
+}
+
+.main__button-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+@-webkit-keyframes arrowMove {
+  from {
+    -webkit-transform: translateX(-0.5rem);
+            transform: translateX(-0.5rem);
+  }
+  to {
+    -webkit-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
+    opacity: 0;
+  }
+}
+
+@keyframes arrowMove {
+  from {
+    -webkit-transform: translateX(-0.5rem);
+            transform: translateX(-0.5rem);
+  }
+  to {
+    -webkit-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=AuthorButton.css.map */

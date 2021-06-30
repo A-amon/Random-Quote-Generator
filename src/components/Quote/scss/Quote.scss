@@ -1,0 +1,26 @@
+@import "../../../styles/scss/color";
+@import "../../../styles/scss/variables";
+@import "../../../styles/scss/breakpoints";
+
+.quote{
+    width: 100%;
+    padding:1.5rem;
+    max-width: $quote-width;
+    position: relative;
+    border-radius:5px;
+    overflow: hidden;
+    line-height: 1.5;
+    box-sizing: border-box;
+    @include tablet-query{
+        font-size:1.5rem;
+    }
+    &::before{
+        content:"";
+        width: 8px;
+        height:100%;
+        background:$marzipan;
+        position: absolute;
+        left:0;
+        top:0;
+    }
+}

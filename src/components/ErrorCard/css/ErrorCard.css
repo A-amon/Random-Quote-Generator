@@ -1,0 +1,50 @@
+.error__card {
+  position: relative;
+  padding: 2rem;
+  background: #f7e9e9;
+  -webkit-animation: fadeIn 1s 1 forwards;
+          animation: fadeIn 1s 1 forwards;
+}
+
+.error__message {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+  max-width: 80%;
+}
+
+.error__button--reload {
+  background: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 2rem;
+  margin: auto;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=ErrorCard.css.map */

@@ -1,0 +1,30 @@
+@import "../../../styles/scss/typography";
+@import "../../../styles/scss/breakpoints";
+
+body{
+    font-family:$font-raleway;
+}
+
+.aria__text{
+    width:0;
+    height: 0;
+    overflow:hidden;
+    display: block;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+main{
+    margin:0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
