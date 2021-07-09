@@ -4,7 +4,7 @@
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
 
-This generator fetches data from https://pprathameshmore.github.io/QuoteGarden/ API.
+This generator fetches data from [Quote Garden API](https://pprathameshmore.github.io/QuoteGarden/).
 
 ## Features
 * Generate a random quote
